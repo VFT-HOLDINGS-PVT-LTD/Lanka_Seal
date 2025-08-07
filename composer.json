@@ -1,0 +1,21 @@
+{
+	"description": "The CodeIgniter framework",
+	"name": "codeigniter/framework",
+	"type": "project",
+	"homepage": "http://codeigniter.com",
+	"license": "MIT",
+	"support": {
+		"forum": "http://forum.codeigniter.com/",
+		"wiki": "https://github.com/bcit-ci/CodeIgniter/wiki",
+		"irc": "irc://irc.freenode.net/codeigniter",
+		"source": "https://github.com/bcit-ci/CodeIgniter"
+	},
+	"require": {
+		"php": ">=8.0.11",
+		"phpoffice/phpspreadsheet": "1.16.0",
+		"setasign/fpdi": "^2.6",
+		"tecnickcom/tcpdf": "^6.7"
+		
+	}
+	
+}
