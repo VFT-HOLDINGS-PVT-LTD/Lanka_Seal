@@ -26,8 +26,8 @@ class Weekly_Roster extends CI_Controller
 
         $data['title'] = "Weekly Roster Pattern | HRM System";
         // $data['data_set_shift'] = $this->Db_model->getData('ShiftCode,ShiftName', 'tbl_shifts');
-        $data['data_set_shift'] = $this->Db_model->getfilteredData("SELECT ShiftCode,ShiftName,FromTime,ToTime,NextDay,DayType,FHDSessionEndTime,SHDSessionStartTime,ShiftGap FROM tbl_shifts ;");
-
+        $data['data_set_shift'] = $this->Db_model->getfilteredData("SELECT ShiftCode,ShiftName,FromTime,ToTime,NextDay,DayType,FHDSessionEndTime,SHDSessionStartTime,ShiftGap FROM tbl_shifts;");
+// echo json_encode($data['data_set_shift']);
         // $data['data_set'] = $this->Db_model->getData('RosterCode,RosterName,MonthType,CurrentYear,Data', 'tbl_rosterpatternweeklyhd');
         $data['data_set'] = $this->Db_model->getfilteredData("select RosterCode,RosterName,MonthType,CurrentYear,Data from tbl_rosterpatternweeklyhd ;");
 
@@ -98,7 +98,7 @@ class Weekly_Roster extends CI_Controller
         $data['serial'] = ++$serial;
         $data['title'] = "Monthly Roster Pattern | HRM System";
         // $data['data_set_shift'] = $this->Db_model->getData('ShiftCode,ShiftName', 'tbl_shifts');
-        $data['data_set_shift'] = $this->Db_model->getfilteredData("SELECT ShiftCode,ShiftName,FromTime,ToTime,NextDay,DayType,FHDSessionEndTime,SHDSessionStartTime,ShiftGap FROM tbl_shifts WHERE ShiftCode > '165';");
+        $data['data_set_shift'] = $this->Db_model->getfilteredData("SELECT ShiftCode,ShiftName,FromTime,ToTime,NextDay,DayType,FHDSessionEndTime,SHDSessionStartTime,ShiftGap FROM tbl_shifts;");
 
 
 

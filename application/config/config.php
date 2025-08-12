@@ -23,8 +23,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/Lanka_seal/';
-// $config['base_url'] = 'https://webx.hrislkonline.com/';
+// $config['base_url'] = 'http://localhost/Lanka_Seal/';
+$config['base_url'] = 'https://lalan.hrislanka.com/';
 
 /*
 |--------------------------------------------------------------------------

@@ -188,7 +188,7 @@
                                                                 $x = $x + 1;
 
                                                                 ?>
-
+<?php echo json_encode($data_set_shift); ?>
                                                                 <div class="form-group col-md-12">
                                                                     <div class="form-group">
                                                                         <label for="#" class="col-sm-3 control-label"
@@ -206,6 +206,7 @@
 
                                                                                 <option value="" default>-- Select --
                                                                                 </option>
+                                                                                
                                                                                 <?php foreach ($data_set_shift as $t_data) { ?>
                                                                                     <option
                                                                                         value="<?php echo $t_data->ShiftCode; ?>">
