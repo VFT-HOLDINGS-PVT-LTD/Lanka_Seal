@@ -98,7 +98,7 @@ class Weekly_Roster extends CI_Controller
         $data['serial'] = ++$serial;
         $data['title'] = "Monthly Roster Pattern | HRM System";
         // $data['data_set_shift'] = $this->Db_model->getData('ShiftCode,ShiftName', 'tbl_shifts');
-        $data['data_set_shift'] = $this->Db_model->getfilteredData("SELECT ShiftCode,ShiftName,FromTime,ToTime,NextDay,DayType,FHDSessionEndTime,SHDSessionStartTime,ShiftGap FROM tbl_shifts WHERE ShiftCode > '165';");
+        $data['data_set_shift'] = $this->Db_model->getfilteredData("SELECT ShiftCode,ShiftName,FromTime,ToTime,NextDay,DayType,FHDSessionEndTime,SHDSessionStartTime,ShiftGap FROM tbl_shifts");
 
 
 

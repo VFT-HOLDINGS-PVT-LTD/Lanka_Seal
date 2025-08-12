@@ -19,7 +19,7 @@ $pdf->SetKeywords('TCPDF, PDF, example, test, guide');
 
 
 //var_dump($data_cmp[0]->Company_Name);
-$PDF_HEADER_TITLE = $data_cmp[0]->Company_Name;
+$PDF_HEADER_TITLE = '';
 $PDF_HEADER_LOGO_WIDTH = '0';
 $PDF_HEADER_LOGO = '';
 $PDF_HEADER_STRING = '';
