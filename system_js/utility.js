@@ -1,2 +1,2 @@
-// baseurl="http://localhost/Lanka_Seal/";
+// baseurl="http://localhost/Lanka_seal/";
 baseurl = "https://lalan.hrislanka.com/";

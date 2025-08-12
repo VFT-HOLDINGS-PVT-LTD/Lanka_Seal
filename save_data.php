@@ -3,9 +3,9 @@
 echo "Run successfully..///";
 
 $servername = "localhost";
-$username = "voa_user";
-$password = "do9FtGKHc_3=";
-$database = "voa_db";
+$username = "lankaseal_user";
+$password = "OPUH{C8u-uY]";
+$database = "lankaseal_db";
 
 $conn = new mysqli($servername, $username, $password, $database);
 
